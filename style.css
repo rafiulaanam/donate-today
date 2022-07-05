@@ -1,0 +1,25 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+
+
+.title-one{
+    font-size: 50px;
+    font-weight: 50px;
+  
+    
+}
+
+.text-align{
+    text-align: center;
+}
+.donate-header a{
+    text-align: center;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+}
