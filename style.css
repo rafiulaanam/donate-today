@@ -1,6 +1,8 @@
 
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
  
@@ -9,6 +11,7 @@ body{
 .title-one{
     font-size: 50px;
     font-weight: 50px;
+    color: white;
   
     
 }
@@ -16,10 +19,76 @@ body{
 .text-align{
     text-align: center;
 }
+.donate-header{
+background-image: url(images/donation5.jpg);
+background-repeat: no-repeat;
+height: 500px;
+
+}
 .donate-header a{
     text-align: center;
     text-decoration: none;
     background-color: tomato;
     padding: 10px;
     border-radius: 5px;
+}
+.taka{
+    display: flex;
+    margin-left: 400px;
+    text-align: center;
+}
+span{
+    
+    /* width: 500px;
+    height: 20px; */
+    font-size: 30px;
+    padding-top: 60px;
+
+   
+    
+
+    margin: 20px;
+}
+
+.taka2{
+    border: 2px solid aliceblue;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+   
+}
+
+.taka3{
+    border: 2px solid tomato; 
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px; 
+    background-color: rgba(255, 71, 71, 0.171);
+}
+
+.donate-today a{
+    text-align: center;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+.input-line{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.donate-btn{
+    margin-top: 50px;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 600px;
+    
 }
