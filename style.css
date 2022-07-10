@@ -6,23 +6,35 @@ body{
     font-family: 'Poppins', sans-serif;
 }
  
-
+.p-col{
+    color: white;
+}
 
 .title-one{
     font-size: 50px;
     font-weight: 50px;
     color: white;
+   
   
     
+}
+.text-header{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 150px;
+
 }
 
 .text-align{
     text-align: center;
 }
 .donate-header{
-background-image: url(images/donation5.jpg);
+background-image:url(images/donation5.jpg);
 background-repeat: no-repeat;
-height: 500px;
+height: 669px;
+background-size: 1440px;
+opacity: -10px;
+
 
 }
 .donate-header a{
@@ -31,6 +43,8 @@ height: 500px;
     background-color: tomato;
     padding: 10px;
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
 .taka{
     display: flex;
@@ -39,15 +53,8 @@ height: 500px;
 }
 span{
     
-    /* width: 500px;
-    height: 20px; */
     font-size: 30px;
     padding-top: 60px;
-
-   
-    
-
-    margin: 20px;
 }
 
 .taka2{
@@ -57,6 +64,7 @@ span{
     margin-left: 20px;
     border-radius: 5px;
     background-color: aliceblue;
+    
    
 }
 
@@ -68,6 +76,11 @@ span{
     width: 100px; 
     background-color: rgba(255, 71, 71, 0.171);
 }
+.donate-today2 h1{
+    font-size: 40px;
+    margin-top: 60px;
+    
+}
 
 .donate-today a{
     text-align: center;
@@ -75,6 +88,8 @@ span{
     background-color: tomato;
     padding: 10px;
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
    
 }
 
@@ -100,23 +115,32 @@ span{
 
 .food{
     background-color: #4f9da623;
-    width: 360px;
+    width: 330px;
     height: 252px;
     border-radius: 5px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .shelter{
     background-color: #ff595927;
-    width: 360px;
+    width: 330px;
     height: 252px;
     border-radius: 5px;
     margin-left: 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .education{
     background-color: #e9ae0b46;
-    width: 360px;
+    width: 330px;
     height: 252px;
     border-radius: 5px;
     margin-left: 20px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 .depends{
     display: flex;
@@ -133,6 +157,8 @@ span{
     background-color: tomato;
     padding: 10px;
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
 
 }
 .left-depends{
@@ -161,6 +187,8 @@ span{
     padding-top: 8px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    color: white;
+    font-weight: 700;
 
 }
 .subscribe input{
@@ -172,6 +200,7 @@ span{
     height: 180px;
     background-color: #e9ae0b46;
     margin-left: 300px;
+    margin-bottom: 100px;
 }
 
 .get-update h1{
@@ -182,6 +211,26 @@ span{
 .left-depends h1{
     font-size: 40px;
 }
+
 .donate-plan h1{
     font-size: 40px;
+    margin-top: 100px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+   
+    background-color: #0B0D17;
+}
+
+.foot-h1 h1{
+    margin-top: 40px;
+    color: tomato;
+
+}
+
+.footer p{
+    margin-top: 40px;
+    color: white;
 }
