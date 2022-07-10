@@ -85,10 +85,103 @@ span{
 .donate-btn{
     margin-top: 50px;
 }
-input{
+.input-line input{
     border-top: none;
     border-left: none;
     border-right: none;
     width: 600px;
     
+}
+
+.three-plan{
+    display: flex;
+    margin-left: 120px;
+}
+
+.food{
+    background-color: #4f9da623;
+    width: 360px;
+    height: 252px;
+    border-radius: 5px;
+}
+.shelter{
+    background-color: #ff595927;
+    width: 360px;
+    height: 252px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.education{
+    background-color: #e9ae0b46;
+    width: 360px;
+    height: 252px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.depends{
+    display: flex;
+}
+.donate9 img{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.how-btn a{
+    text-align: center;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.left-depends{
+    width: 30%;
+    margin-left: 120px;
+}
+.depends-sec{
+    margin-top: 40px;
+}
+.pag1{
+    margin-bottom: 50px;
+}
+.subscribe{
+    display: flex;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 190px;
+}
+.subscribe a{
+    text-align: center;
+    text-decoration: none;
+    background-color: tomato;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.subscribe input{
+   height: 30px;
+   border-right: none;
+}
+.email-box{
+    width: 700px;
+    height: 180px;
+    background-color: #e9ae0b46;
+    margin-left: 300px;
+}
+
+.get-update h1{
+    font-size: 40px;
+
+}
+
+.left-depends h1{
+    font-size: 40px;
+}
+.donate-plan h1{
+    font-size: 40px;
 }
